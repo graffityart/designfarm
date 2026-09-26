@@ -6,7 +6,9 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://designfarm.co.kr"),
   title: {default:"홈페이지 제작 전문 디자인팜",template:"%s | 디자인팜"},
   description:"기업 홈페이지, 쇼핑몰 제작, 반응형 웹사이트와 유지보수를 지원하는 디자인팜입니다.",
-  verification: { other: { "naver-site-verification": "295604c62728285549c6daf2e9b6815018d20ac7" } },
+  verification: {
+    other: { "naver-site-verification": "295604c62728285549c6daf2e9b6815018d20ac7" },
+  },
   alternates:{canonical:"/"}, openGraph:{type:"website",locale:"ko_KR",siteName:"디자인팜",images:["/images/hero.webp"]}
 };
 
